@@ -33,9 +33,9 @@ export function Navigation() {
       <nav className="fixed top-0 left-0 right-0 flex items-center z-50 backdrop-blur-md justify-between p-4 bg-transparent shadow-none">
         <div className="flex items-center gap-1">
           {theme === 'light' ? (
-            <img src="/logo2.png" alt="Logo" className="w-10 h-8 sm:w-14 sm:h-12" />
+            <img src="/Logo2.png" alt="Logo" className="w-10 h-8 sm:w-14 sm:h-12" />
           ) : (
-            <img src="/logo1.png" alt="Logo" className="w-10 h-8 sm:w-14 sm:h-12" />
+            <img src="/Logo1.png" alt="Logo" className="w-10 h-8 sm:w-14 sm:h-12" />
           )}
           <span className="text-xs sm:text-xl md:text-2xl lg:text-3xl font-semibold text-gray-900 dark:text-white">
             Software Developer
